@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { FlatList, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 const tasks = [
   { id: '1', name: 'Mobile App Development' },
@@ -21,6 +21,7 @@ const tasks = [
 
 const OngoingTask = () => {
   return (
+    <ScrollView>
     <View style={styles.ongoingTaskSection}>
       <Text style={styles.sectionTitle}>Ongoing Task</Text>
       <FlatList
@@ -33,6 +34,7 @@ const OngoingTask = () => {
         keyExtractor={item => item.id}
       />
     </View>
+    </ScrollView>
   );
 };
 
