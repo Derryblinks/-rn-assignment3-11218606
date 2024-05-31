@@ -47,3 +47,4 @@ This ToDo App demonstrates the usage of core React Native components to build a 
 ![Third](<assets/Screenshots/Screenshot 4.png>)
 ![Fourth](<assets/Screenshots/Screenshot 5.png>)
 ![Fifth](<assets/Screenshots/Screenshot of Project.png>)
+![sixth](<assets/Screenshots/Screenshot without frame.png>)
