@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TextInput, StyleSheet, Image, Button, TouchableOpacity } from 'react-native';
+import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 const Header = () => {
   return (
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     borderWidth: "none",
     borderRadius: 10,
     marginRight: 30,
-    marginLeft: 8,
+    marginLeft: 0,
     backgroundColor: "#ffffff"
   },
   searchIcon: {
@@ -68,9 +68,12 @@ const styles = StyleSheet.create({
     height: 24,
     marginRight: -35,
     marginTop: 10,
+    left: 15,
+    position: "absolute",
+    zIndex: 1,
   },
   placeholder: {
-    paddingLeft: 30,
+    paddingLeft: 45,
     fontWeight:"bold",
   },
   filterIcon: {

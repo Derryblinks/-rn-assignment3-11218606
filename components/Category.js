@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, FlatList } from 'react-native';
+import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 
 const categories = [
   { id: '1', name: 'Exercise', tasks: 12, image: require('../assets/study1.png') },
@@ -62,13 +62,17 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     position:"absolute",
-    marginRight: 130,
+    marginLeft: 110,
+    left: -100,
+    top: 10,
   },
   categoryTasks: {
     color: 'gray',
     position:"absolute",
     marginTop: 25,
-    marginRight: 130,
+    marginLeft: 110,
+    left: -100,
+    top: 5,
   },
 });
 

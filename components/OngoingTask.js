@@ -21,7 +21,7 @@ const tasks = [
 
 const OngoingTask = () => {
   return (
-    <ScrollView>
+    
     <View style={styles.ongoingTaskSection}>
       <Text style={styles.sectionTitle}>Ongoing Task</Text>
       <FlatList
@@ -34,7 +34,7 @@ const OngoingTask = () => {
         keyExtractor={item => item.id}
       />
     </View>
-    </ScrollView>
+   
   );
 };
 
